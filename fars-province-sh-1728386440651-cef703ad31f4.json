@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "fars-province-sh-1728386440651",
+  "private_key_id": "cef703ad31f4df16bb50670431b446cfdf27d9b3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCfaZbi5CI6zYBO\nwe26usBRdSWAxklFRK+WPn1oGsDf+dWMCgaqQBoXwI407n4edmwjwn5xzXsycuib\nTYkxQJyy5WdSkekcXaEQxGLDxS8QYsv+HseWYuGG86mievwzGPZN0DFXKDfnegdt\nXiPsan93iTrfpjp0fYom2sXtvlvCgftmTEV/DbVM7tcAu3uEFHytqx5q8a1YYEIW\n3Q78ZWyOlWlDAzVjte0Xmj4XiGoIaIJhewENM65nwjRFNABioks5JilbSGY16wHM\nNKFQnovkFe2KJK0e+LWAYzwTTczHIgV8dMA5yRiVqqJ0TEyg3GfDGKe8tUZ9uJ4L\n9rgG1Gq/AgMBAAECggEABb/YKky8vfmFbtG9vOYEDla28zhePM+ntDfYFrYdo2ED\nsQOiOT0LSTSvrFG3CMA6puYv4J40RZ3cAns/FHYBG3lR9aoU3z9dPMPoeqkU88wB\nvCOTYpAkaX/w6/ma46OQgT6eA50MDx7ZP7o3z3degOAugxHKupgrMGWO4pk3/qwv\njLV9mZ10cYFOCnFWatNlZ9tpjTXlQq7t7qovjujaTM/q2/oPQweMAvKaj9f9EVnb\n/nPNof3+mhiOXf4uUq77Z+bPracBJ2QShnOwfcSDyzlVig+XbZ2vKFGB4zB+DVwA\ndKL5iBNrKAYFuEmtUztkc68pNNuXMk8bKnrwYANaUQKBgQDP6fc1jk7DeDXhea1V\n6F76zTq0fnopNQOQ2stPHhqi3lVYItSmoAlgxLF1RIoCJBNT/BIB2HseHNN7LOnY\n2P1g+GLLnLAxeu50M+QAkzHajuzLrB0mR5qlM59qPTYpIaNE/N+NCLRzVUm4Uk3t\nOwAMCGCMrVE7xTC+hp8/6x6LeQKBgQDER/rYgyJKkwIBuKeYk2O/QkunVo8A894D\n/Q7yCjhRJMzmkqJiKynRZ+PkP9qsoTDTPZyKnkmqdPluaZF+fHhRu/TDZNfNgf4v\n0TBJXAU8SCZqB1olxr+QWo5dw8iV6Fmx88jzwT3ik8FMg3ZhwR8SuP35oKbJ7a0m\nuRCLUdth9wKBgG+8yLvCmDfa4fIkZ3B06p6VL0iTdGmy8RCnVX5Wqm//VxR/25MV\nDRUxgEGKrTTLWIvZO4A8bKZZTZq0H5UHwNydgNL2iYZ+D6rpvE5GzRMtnrsy65OI\nBedk3/bDoNjoGAvabvYnyHr3SiBCM1kcTUEqO2E/QBoENtceGHXMkWTZAoGBAL04\n1y8bXFegWXLnXUrN7H9Zni14WOyGLSaTM3FLQPeZDp/KBRm2mt3x1dUZaeq6iqNa\n5isMZeAaXMyAoW7a9/Nzy4cDFLhd9XqLpI1UVQfEVqQo6lM4wzya0Fy8fgdms/HG\nH5g+VzazUso8gkfDMf2OsemRYrmQlDiceMKW63QJAoGBAMaGGzsFZKGOae9tokBq\nnDON+g5Mnkbe/wdDgBysT7VraBwCksOC514QmQIOBwayostZ++eVDSAlcutFJxLw\ngLA/jzo127vz93zFVHiBEGiQ3oas+IVtcosHoIvUuO7VfYVue2vq9KRF+xWhVs2b\nfLl4bpaZsTSswckc1nmZOuiW\n-----END PRIVATE KEY-----\n",
+  "client_email": "lottary@fars-province-sh-1728386440651.iam.gserviceaccount.com",
+  "client_id": "103569090840389738992",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/lottary%40fars-province-sh-1728386440651.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
