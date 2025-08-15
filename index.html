@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crypto Lottery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="main-header">
+    <div class="user-info">
+      <img src="https://api.dicebear.com/7.x/identicon/svg?seed=avatar" alt="Avatar" class="avatar" />
+      <div>
+        <p><strong>Email:</strong> <span id="userEmail">Not registered</span></p>
+        <p><strong>UID:</strong> <span id="userUID">---</span></p>
+      </div>
+    </div>
+    <h1>🎉 $1000 Crypto Lottery</h1>
+    <p>Donate, Invite, Win!</p>
+  </header>
+
+  <section id="howItWorks">
+    <h2>📢 How It Works</h2>
+    <div class="features">
+      <div class="feature-box">
+        <img src="https://via.placeholder.com/80?text=💸" />
+        <h3>Donate</h3>
+        <p>Send crypto and earn lottery chances based on your amount.</p>
+      </div>
+      <div class="feature-box">
+        <img src="https://via.placeholder.com/80?text=👥" />
+        <h3>Refer</h3>
+        <p>Invite friends using your UID and earn bonus chances.</p>
+      </div>
+      <div class="feature-box">
+        <img src="https://via.placeholder.com/80?text=🎯" />
+        <h3>Win</h3>
+        <p>Every 30 days, one lucky winner gets $1000 USDT!</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="register">
+    <h2>🔐 Register</h2>
+    <form id="registerForm">
+      <input type="email" id="regEmail" placeholder="Enter your Gmail" required />
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <section id="countdown">
+    <h2>⏳ Time Left</h2>
+    <div id="timer" class="countdown-box">
+      <span id="hours">00</span> :
+      <span id="minutes">00</span> :
+      <span id="seconds">00</span>
+    </div>
+  </section>
+
+  <section id="donate">
+    <h2>💸 Submit Donation</h2>
+    <p>Send crypto to: <strong>0xYourWalletAddress</strong></p>
+    <form id="donationForm">
+      <input type="text" id="txid" placeholder="Transaction TXID" required />
+      <input type="email" id="donorEmail" placeholder="Your Gmail" required />
+      <input type="text" id="refUID" placeholder="Referral UID (optional)" />
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="referral">
+    <h2>👥 Your Referral Link</h2>
+    <input type="text" id="refLink" readonly />
+    <button onclick="copyReferral()">Copy</button>
+  </section>
+
+  <section id="topUsers">
+    <h2>🏆 Top Donors</h2>
+    <table>
+      <thead>
+        <tr><th>UID</th><th>Email</th><th>Chances</th><th>Total Donated</th></tr>
+      </thead>
+      <tbody id="donorTable"></tbody>
+    </table>
+  </section>
+
+  <section id="topReferrals">
+    <h2>👥 Top Referrers</h2>
+    <table>
+      <thead>
+        <tr><th>UID</th><th>Email</th><th>Referrals</th></tr>
+      </thead>
+      <tbody id="referralTable"></tbody>
+    </table>
+  </section>
+  <section id="topScores">
+    <h2>🏆 Top Scores</h2>
+    <table>
+      <thead>
+        <tr><th>Email</th><th>Score</th></tr>
+      </thead>
+      <tbody id="scoreTable"></tbody>
+    </table>
+  </section>
+  <footer>
+    <div class="footer-columns">
+      <div>
+        <h4>About</h4>
+        <p>Crypto Lottery is a blockchain-powered platform to reward donors and community builders.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Email: support@cryptolottery.com</p>
+        <p>Telegram: @CryptoLottery</p>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <p>Twitter | Instagram | Discord</p>
+      </div>
+    </div>
+    <p>© 2025 Crypto Lottery | Designed by Mohammad</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
